@@ -6,6 +6,7 @@ public class AccountCFRecordType {
  
     // The constructor is private and initializes the id of the record type
     private AccountCFRecordType(){
+        
         id = Account.sObjectType.getDescribe().getRecordTypeInfosByName().get('Community Fundraising').getRecordTypeId();
     }
 

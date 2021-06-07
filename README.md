@@ -1,6 +1,6 @@
 The Singleton design pattern allows Apex code to repeatedly reference an object instance in an optimal manner, whilst mitigating the impact of governor limits.
 
-In order to implement a Singleton pattern in Apex, the class must instantiate only a single instance and be globally accessible. It is implemented by:
+In order to implement a Singleton pattern in Apex, the class must instantiate only a single instance and be globally accessible. It is implemented by
 
 Creating a class with a method that creates a new instance of the class if it doesn't already exist
 If it already exists, then simply return a reference to that object
